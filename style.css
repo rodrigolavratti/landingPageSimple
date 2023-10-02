@@ -15,4 +15,110 @@ body {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
+  padding: 24px;
+}
+
+.container-header-img {
+  height: 72px;
+}
+
+.container-header-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.container-header-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contaier {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-main-description {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.container-main-description-title {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff2e7;
+}
+
+.container-main-description-subtitle {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+
+.container-main-description-button {
+  background-color: #ecd6ec;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+  cursor: pointer;
+}
+
+.container-main-description-button:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.container-main-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.container-main-img {
+  height: 430px;
+}
+
+.container-main-second-title {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  color: #fff2ef;
+  margin-bottom: 16px;
+}
+
+.container-main-second-paragraph {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ecd6c4;
+}
+
+.footer {
+  padding: 32px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.footer-img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
 }
